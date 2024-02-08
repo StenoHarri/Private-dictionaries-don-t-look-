@@ -454,11 +454,11 @@ ENDERS = {
     "PBLZ": ("present", " only"),
     "PBLDZ": ("past", " only"),
 
-    # BLG - To like (to)
-    "BLG": ("present", {None: " like", "3ps": " likes", "present-participle": " liking", "past-participle": " liked"}),
-    "BLGT": ("present", {None: " like to", "3ps": " likes to", "present-participle": " liking to", "past-participle": " liked to"}),
-    "BLGD": ("past", {None: " liked", "root": " like", "present-participle": " liking", "past-participle": " liked"}),
-    "BLGTD": ("past", {None: " liked to", "root": " like to", "present-participle": " liking to", "past-participle": " liked to"}),
+    # LG - To like (to)
+    "LG": ("present", {None: " like", "3ps": " likes", "present-participle": " liking", "past-participle": " liked"}),
+    "LGT": ("present", {None: " like to", "3ps": " likes to", "present-participle": " liking to", "past-participle": " liked to"}),
+    "LGD": ("past", {None: " liked", "root": " like", "present-participle": " liking", "past-participle": " liked"}),
+    "LGTD": ("past", {None: " liked to", "root": " like to", "present-participle": " liking to", "past-participle": " liked to"}),
 
     # LZ - To live
     "LZ": ("present", {None: " live", "3ps": " lives", "present-participle": " living", "past-participle": " lived"}),
@@ -468,11 +468,11 @@ ENDERS = {
     "L": ("present", {None: " look", "3ps": " looks", "present-participle": " looking", "past-participle": " looked"}),
     "LD": ("past", {None: " looked", "root": " look", "present-participle": " looking", "past-participle": " looked"}),
 
-    # LG - To love (to)
-    "LG": ("present", {None: " love", "3ps": " loves", "present-participle": " loving", "past-participle": " loved"}),
-    "LGT": ("present", {None: " love to", "3ps": " loves to", "present-participle": " loving to", "past-participle": " loved to"}),
-    "LGD": ("past", {None: " loved", "root": " love", "present-participle": " loving", "past-participle": " loved"}),
-    "LGTD": ("past", {None: " loved to", "root": " love to", "present-participle": " loving to", "past-participle": " loved to"}),
+    # BLG - To love (to)
+    "BLG": ("present", {None: " love", "3ps": " loves", "present-participle": " loving", "past-participle": " loved"}),
+    "BLGT": ("present", {None: " love to", "3ps": " loves to", "present-participle": " loving to", "past-participle": " loved to"}),
+    "BLGD": ("past", {None: " loved", "root": " love", "present-participle": " loving", "past-participle": " loved"}),
+    "BLGTD": ("past", {None: " loved to", "root": " love to", "present-participle": " loving to", "past-participle": " loved to"}),
 
     # RPBL - To make (the)
     "RPBL": ("present", {None: " make", "3ps": " makes", "present-participle": " making", "past-participle": " made"}),
