@@ -118,7 +118,7 @@ SIMPLE_STARTERS = {
     "SWHAO": ("so what", None),
     "STPA": ("if", None),
     "SKWO": ("so", None),
-    "STKPWAO": ("so if", None),
+    #"STKPWAO": ("so if", None),
     "SWH": ("when", None),
     "SWHA": ("what", None),
     "STPWHA": ("what if", None),
