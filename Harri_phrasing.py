@@ -395,9 +395,9 @@ ENDERS = {
     "PBLGSZ": ("present", " just"),
     "PBLGTSDZ": ("past", " just"),
 
-    # RPBGS - ever
-    "RPBGS": ("present", " ever"),
-    "RPBGSZ": ("past", " ever"),
+    # RPBGS - never  but this was me me me me me me me me me me me me me me me me me me
+    "RPBGS": ("present", " never"),
+    "RPBGSZ": ("past", " never"),
     
     # RPLTS - matter 
     "RPLTS": ("present", {None: " matter", "3ps": " matters"}),
@@ -988,3 +988,65 @@ def reverse_lookup(text):
         reverse_middle_match(result, text, text, stroke, "full")
 
     return result
+
+
+
+
+
+
+#Uncomment this if you want to have an outputted json file
+"""
+
+phrases={}
+
+ayy = 0
+for starter in STARTERS:
+    starter = starter + '-'
+    for middle in MIDDLES:
+        for structure in STRUCTURES:
+            for ender in ENDERS:
+                steno = (starter+middle+structure+ender).replace('**','*')
+                if 'A' in steno:
+                    steno = steno.replace('-','')
+                elif 'O' in steno:
+                    steno = steno.replace('-','')
+                elif '*' in steno:
+                    steno = steno.replace('-','')
+                elif 'E' in steno:
+                    steno = steno.replace('-','')
+                elif 'U' in steno:
+                    steno = steno.replace('-','')
+                try:
+                    phrases[steno] = lookup([steno])
+                except KeyError:
+                    pass
+
+for starter in SIMPLE_STARTERS:
+    starter=starter+'-'
+    for middle in SIMPLE_PRONOUNS:
+        if '^' in middle:
+            middle = middle.replace('^','')
+            starter = '^' + starter
+        for structure in SIMPLE_STRUCTURES:
+            for ender in ENDERS:
+                steno = (starter+middle+structure+ender).replace('**','*')
+                if 'A' in steno:
+                    steno = steno.replace('-','')
+                elif 'O' in steno:
+                    steno = steno.replace('-','')
+                elif '*' in steno:
+                    steno = steno.replace('-','')
+                elif 'E' in steno:
+                    steno = steno.replace('-','')
+                elif 'U' in steno:
+                    steno = steno.replace('-','')
+                try:
+                    phrases[steno] = lookup([steno])
+                except KeyError:
+                    pass
+
+import json
+with open("Harri_phrasing.json", "w") as outfile:
+    json.dump(phrases, outfile, indent=0)
+
+"""
