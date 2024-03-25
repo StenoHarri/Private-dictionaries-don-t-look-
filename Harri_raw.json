@@ -1,0 +1,12 @@
+{
+"1KWR5*8GS": "{plover:solo_dict:+Disable_dictionaries_outline.json,+Emily_symbols.py,+Emily_modifiers.py,+jalexu_Phraser.py,+Harri_numbers.py}{^}",
+"STPH-R": "{#Left}{^}",
+"STPH-RB": "{#Control_L(Left)}{^}",
+"STPH-P": "{#Up}{^}",
+"STPH-B": "{#Down}{^}",
+"STPH-BG": "{#Control_L(Right)}{^}",
+"STPH-G": "{#Right}{^}",
+"TPHO*FRL": "{^}{plover:end_solo_dict}",
+"WUPB/WUPB": "one by one",
+"RA*U": "{plover:solo_dict:+Disable_dictionaries_outline.json,+Emily_symbols.py,+Emily_modifiers.py}{`^}"
+}
