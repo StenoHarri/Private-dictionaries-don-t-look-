@@ -8,5 +8,5 @@
 "STPH-G": "{#Right}{^}",
 "TPHO*FRL": "{^}{plover:end_solo_dict}",
 "WUPB/WUPB": "one by one",
-"RA*U": "{plover:solo_dict:+Disable_dictionaries_outline.json,+Emily_symbols.py,+Emily_modifiers.py}{`^}"
+"RA*U": "{plover:solo_dict:+Disable_dictionaries_outline.json,+Emily_symbols.py,+Emily_modifiers.py}{^}"
 }
